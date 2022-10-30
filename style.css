@@ -6,30 +6,24 @@
   font-family: Lato, sans-serif;
 }
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.header .more_inf {
   font-family: fantasy, cursive;
-}
-
-@media (max-width:768px) {
-  .aaa {
-    text-align: center;
-  }
 }
 
 .centered-main-page-element {
@@ -174,4 +168,12 @@ ul li.editMode input[type="text"] {
 
 ul li.editMode label {
   display: none;
+}
+
+@media (max-width:768px) {
+
+  .header {
+    text-align: center;
+  }
+  
 }
