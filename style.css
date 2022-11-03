@@ -105,6 +105,10 @@ button {
   width: 226px;
   display: none;
 }
+/* .item.editMode label,
+.item.editMode label {
+  display: none;
+} */
 [class*="__icon-remove"] {
   height: 2em;
   transform: rotateZ(45deg);
@@ -119,11 +123,11 @@ button {
   color: #888;
 }
 /* Edit Task */
-[class*="__item"].editMode [class*="__edit-task"] {
+.item.editMode [class*="__edit-task"] {
   display: inline-block;
   width: 224px;
 }
-[class*="__item"].editMode [class*="__task-name"] {
+.item.editMode [class*="__task-name"] {
   display: none;
 }
 
